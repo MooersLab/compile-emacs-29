@@ -2,15 +2,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Protocols for compiling GNU Emacs version 29 from source code with Tree-Sitter support
+# Protocol for compiling GNU Emacs version 29 from source code on Mac OS 15 with Tree-Sitter support
 
 I switched to using version 29 about six months ago.
-This is the current version of Emacs.
+This is the current version of Emacs (29.4).
 
 
 ## Prerequisites
 You must install the tree-sitter C library before compiling Emacs.
-The [emacs-tree-sitter.el](https://github.com/emacs-tree-sitter/elisp-tree-sitter) package is built into Emacs29 and 30 but not the C library.
+The [emacs-tree-sitter.el](https://github.com/emacs-tree-sitter/elisp-tree-sitter) package is built into Emacs 29 and 30 but not the C library.
 I installed the tree-sitter C library with macports and with homebrew.
 I am not sure which was used when compiling Emacs.
 I had also installed imagemagick with macports or homebrew a long time ago.

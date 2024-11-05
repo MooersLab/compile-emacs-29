@@ -10,14 +10,14 @@ This is the current version of Emacs.
 
 ## Prerequisites
 You must install the tree-sitter C library before compiling Emacs.
-The [[https://github.com/emacs-tree-sitter/elisp-tree-sitter][emacs-tree-sitter.el]] package is built into Emacs29 and 30 but not the C library.
+The [emacs-tree-sitter.el](https://github.com/emacs-tree-sitter/elisp-tree-sitter) package is built into Emacs29 and 30 but not the C library.
 I installed the tree-sitter C library with macports and with homebrew.
 I am not sure which was used when compiling Emacs.
 I had also installed imagemagick with macports or homebrew a long time ago.
 
 ## Download Emacs source code
 This is what I used on October 13, 2024.
-Note that in lieu of using `git clone`, you can download a tar file of the source code for the desired version from the [https://ftp.gnu.org/gnu/emacs/](GitHub Repository for GNU Emacs).
+Note that in lieu of using `git clone`, you can download a tar file of the source code for the desired version from the [GitHub Repository](https://ftp.gnu.org/gnu/emacs/) for GNU Emacs.
 I had to do the latter because the former gave me version 31 of Emacs, the bleeding edge development version.
 
 ## Compile protocol
